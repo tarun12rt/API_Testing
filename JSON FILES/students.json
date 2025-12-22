@@ -1,0 +1,136 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "John",
+      "location": "India",
+      "phone": "9876543210",
+      "courses": [
+        "Python",
+        "Appium"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Smith",
+      "location": "Canada",
+      "phone": "165498765",
+      "courses": [
+        "C#",
+        "RestAPI"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Rahul",
+      "location": "India",
+      "phone": "9123456789",
+      "courses": [
+        "Java",
+        "Selenium",
+        "TestNG"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Anjali",
+      "location": "India",
+      "phone": "9988776655",
+      "courses": [
+        "Manual Testing",
+        "API Testing"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Michael",
+      "location": "USA",
+      "phone": "4455667788",
+      "courses": [
+        "JavaScript",
+        "Playwright"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Sofia",
+      "location": "UK",
+      "phone": "7788990011",
+      "courses": [
+        "Automation",
+        "Cypress",
+        "BDD"
+      ]
+    },
+    {
+      "id": "7ff0",
+      "courses": [
+        "Rest API",
+        "Java"
+      ],
+      "phone": "9472606686",
+      "name": "Tarun",
+      "location": "Patna"
+    },
+    {
+      "id": "4d7a",
+      "courses": [
+        "Rest API",
+        "Java"
+      ],
+      "phone": "9472606686",
+      "name": "Tarun",
+      "location": "Patna"
+    },
+    {
+      "id": "90dd",
+      "courses": [
+        "Rest API",
+        "Java"
+      ],
+      "phone": "9472606686",
+      "name": "Tarun",
+      "location": "Patna"
+    },
+    {
+      "id": "95c9",
+      "courses": [
+        "Rest API",
+        "Java"
+      ],
+      "phone": "9472606686",
+      "name": "Tarun",
+      "location": "Patna"
+    },
+    {
+      "id": "0630",
+      "empty": false,
+      "mapType": "java.util.HashMap"
+    },
+    {
+      "id": "8885",
+      "empty": false,
+      "mapType": "java.util.HashMap"
+    },
+    {
+      "id": "cc17",
+      "courses": [
+        "Rest API",
+        "Java"
+      ],
+      "phone": "9472606686",
+      "name": "Tarun",
+      "location": "Patna"
+    },
+    {
+      "id": "60e4",
+      "courses": [
+        "Rest API",
+        "Java"
+      ],
+      "phone": "9472606686",
+      "name": "Tarun",
+      "location": "Patna"
+    }
+  ]
+}
