@@ -114,17 +114,17 @@ public class DifferentWaysToCreatePostRequestBody {
     @Test(priority = 1)
     public void testPostUsingExternalJSONFile() throws FileNotFoundException {
 
-        File f = new File(".\\body.json");
+        File f = new File("src/test/resources/body.json");
         FileReader fr = new FileReader(f);
 
         JSONTokener jt = new JSONTokener(fr);
 
-        JSONTokener data = new JSONTokener(jt);
+        JSONObject data = new JSONObject(jt);
 
         studentId =
                 given()
                         .contentType("application/json")
-                        .body(data)
+                        .body(data.toString())
                         .when()
                         .post("http://localhost:3000/students")
                         .then()
