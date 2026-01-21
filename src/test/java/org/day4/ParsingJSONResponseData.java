@@ -18,7 +18,39 @@ public class ParsingJSONResponseData {
                 .header("Content-Type","application/json")
                 .body("x.students[6].name",equalTo("Tarun"));
 
-    
+    given()
+                .when()
+                .get("http://localhost:3000/students")
+                .then()
+                .statusCode(200)
+                .header("Content-Type","application/json")
+                .body("x.students[6].name",equalTo("Tarun"));
+
+   given()
+                .when()
+                .get("http://localhost:3000/students")
+                .then()
+                .statusCode(200)
+                .header("Content-Type","application/json")
+                .body("x.students[6].name",equalTo("Tarun"));
+
+    given()
+                .when()
+                .get("http://localhost:3000/students")
+                .then()
+                .statusCode(200)
+                .header("Content-Type","application/json")
+                .body("x.students[6].name",equalTo("Tarun"));
+
+    given()
+                .when()
+                .get("http://localhost:3000/students")
+                .then()
+                .statusCode(200)
+                .header("Content-Type","application/json")
+                .body("x.students[6].name",equalTo("Tarun"));
+
+     
 
     }
 }
