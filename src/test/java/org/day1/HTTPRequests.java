@@ -41,6 +41,46 @@ public class HTTPRequests{
                 .then()
                 .statusCode(201)
                 .log().all();
+        when()
+                .post("https://reqres.in/api/users")
+                .then()
+                .statusCode(201)
+                .log().all();
+        when()
+                .post("https://reqres.in/api/users")
+                .then()
+                .statusCode(201)
+                .log().all();
+        when()
+                .post("https://reqres.in/api/users")
+                .then()
+                .statusCode(201)
+                .log().all();
+        when()
+                .post("https://reqres.in/api/users")
+                .then()
+                .statusCode(201)
+                .log().all();
+        when()
+                .post("https://reqres.in/api/users")
+                .then()
+                .statusCode(201)
+                .log().all();
+        when()
+                .post("https://reqres.in/api/users")
+                .then()
+                .statusCode(201)
+                .log().all();
+        when()
+                .post("https://reqres.in/api/users")
+                .then()
+                .statusCode(201)
+                .log().all();
+        when()
+                .post("https://reqres.in/api/users")
+                .then()
+                .statusCode(201)
+                .log().all();
     }
 
 
